@@ -1,0 +1,16 @@
+apply plugin: 'com.dynatrace.instrumentation'
+dynatrace {
+	configurations {
+		sampleConfig {
+			autoStart {
+				applicationId '14387996-d408-4655-adf5-e4466bc96087'
+				beaconUrl 'https://bf78389mlx.bf-sprint.dynatracelabs.com/mbeacon'
+			}
+			userOptIn true
+			agentBehavior.startupLoadBalancing true
+			sessionReplay.enabled true
+		}
+	}
+}
+
+classpath 'com.dynatrace.tools.android:gradle-plugin:8.+'
