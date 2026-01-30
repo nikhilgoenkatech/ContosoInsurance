@@ -17,10 +17,9 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
 
     <!-- IMPORTANT: armeabi is obsolete and breaks on modern toolchains -->
-    <AndroidSupportedAbis>armeabi-v7a,x86</AndroidSupportedAbis>
 
     <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
