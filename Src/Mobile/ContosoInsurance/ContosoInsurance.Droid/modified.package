@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packages>
+  <!-- Keep existing packages that are not related to Android Support Libraries -->
+  <package id="Bolts" version="1.4.0.1" targetFramework="monoandroid90" />
+  <package id="Microsoft.Azure.Mobile.Client" version="3.0.3" targetFramework="monoandroid90" />
+  <package id="Microsoft.Azure.Mobile.Client.Files" version="1.0.0-beta-2" targetFramework="monoandroid90" />
+  <package id="Microsoft.Azure.Mobile.Client.SQLiteStore" version="3.0.3" targetFramework="monoandroid90" />
+  <package id="Microsoft.Data.Edm" version="5.7.0" targetFramework="monoandroid90" />
+  <package id="Microsoft.Data.OData" version="5.7.0" targetFramework="monoandroid90" />
+  <package id="Microsoft.Data.Services.Client" version="5.7.0" targetFramework="monoandroid90" />
+  <package id="Newtonsoft.Json" version="9.0.1" targetFramework="monoandroid90" />
+  <package id="PCLCrypto" version="2.0.147" targetFramework="monoandroid90" />
+  <package id="PCLStorage" version="1.0.2" targetFramework="monoandroid90" />
+  <package id="PInvoke.BCrypt" version="0.3.152" targetFramework="monoandroid90" />
+  <package id="PInvoke.Kernel32" version="0.3.152" targetFramework="monoandroid90" />
+  <package id="PInvoke.NCrypt" version="0.3.152" targetFramework="monoandroid90" />
+  <package id="PInvoke.Windows.Core" version="0.3.152" targetFramework="monoandroid90" />
+  <package id="SQLitePCLRaw.bundle_green" version="1.1.0" targetFramework="monoandroid90" />
+  <package id="SQLitePCLRaw.core" version="1.1.0" targetFramework="monoandroid90" />
+  <package id="SQLitePCLRaw.lib.e_sqlite3.android" version="1.1.0" targetFramework="monoandroid90" />
+  <package id="SQLitePCLRaw.provider.e_sqlite3.android" version="1.1.0" targetFramework="monoandroid90" />
+  <package id="System.Spatial" version="5.7.0" targetFramework="monoandroid90" />
+  <package id="Validation" version="2.3.7" targetFramework="monoandroid90" />
+  <package id="WindowsAzure.Storage" version="7.2.1" targetFramework="monoandroid90" />
+  <package id="Xam.Plugins.Settings" version="2.5.1.0" targetFramework="monoandroid90" />
+  <package id="Xamarin.Auth" version="1.3.1.1" targetFramework="monoandroid90" />
+
+  <!-- Xamarin.Forms must be upgraded for AndroidX -->
+  <package id="Xamarin.Forms" version="5.0.0.2578" targetFramework="monoandroid90" />
+
+  <!-- AndroidX + Material (replaces Xamarin.Android.Support.* and Support.Design) -->
+  <package id="Xamarin.AndroidX.AppCompat" version="1.6.1.5" targetFramework="monoandroid90" />
+  <package id="Xamarin.AndroidX.Core" version="1.12.0.5" targetFramework="monoandroid90" />
+  <package id="Xamarin.AndroidX.RecyclerView" version="1.3.2.5" targetFramework="monoandroid90" />
+  <package id="Xamarin.AndroidX.CardView" version="1.0.0.25" targetFramework="monoandroid90" />
+  <package id="Xamarin.AndroidX.MediaRouter" version="1.6.0.5" targetFramework="monoandroid90" />
+  <package id="Xamarin.Google.Android.Material" version="1.11.0.5" targetFramework="monoandroid90" />
+
+  <!-- Remove HockeySDK if it causes further build issues. For now, keep it if you still use it. -->
+  <package id="HockeySDK.Xamarin" version="4.1.0" targetFramework="monoandroid90" />
+</packages>
